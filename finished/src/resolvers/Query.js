@@ -2,6 +2,8 @@ import { Types } from 'mongoose';
 import Dog from '../models/Dog';
 import Human from '../models/Human';
 
+
+//find is the same as findAll
 export default {
 	async allDogs() {
 		const dogs = await Dog.find({});

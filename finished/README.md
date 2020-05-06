@@ -22,3 +22,5 @@ Benefits
 -client gets to choose what data it recieves
 -self documenting via the schema
 
+Getting started:
+apollo-server needed

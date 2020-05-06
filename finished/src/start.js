@@ -24,6 +24,8 @@ mongoose.connection.on('error', (err) => {
 });
 
 // Start our app
+// Configuring our server
+//
 const server = new ApolloServer({
 	typeDefs,
 	resolvers: {

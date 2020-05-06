@@ -1,5 +1,8 @@
 import { gql } from 'apollo-server';
 
+
+//! means it is required
+//one query is bare minimum to get graphQL up and running
 const typeDefs = gql`
 	type Human {
 		id: ID!

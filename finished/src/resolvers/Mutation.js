@@ -2,6 +2,8 @@ import { Types } from 'mongoose';
 import Dog from '../models/Dog';
 import Human from '../models/Human';
 
+
+
 export default {
 	async createHuman(parent, args) {
 		const human = await Human.create({ name: args.name });
